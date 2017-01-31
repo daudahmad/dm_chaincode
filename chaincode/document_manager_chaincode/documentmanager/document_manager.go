@@ -33,8 +33,8 @@ func UpdateDocument(docType string, docId string, keyValuePairJson string, docBy
 	switch docType {
 	case "ECM_DOCUMENT":
 		fmt.Printf("UpdateDocument DOCTYPE: ECM_DOCUMENT\n")
-		var t ecmdocument.Document
-		var t2 ecmdocument.Document
+		var t =ecmdocument.Document{DocIssuerID : "N/A"}
+		var t2 =ecmdocument.Document{DocIssuerID : "N/A"}
 		err := json.Unmarshal(docBytes, &t)
 		if err != nil {
 			return nil,err
