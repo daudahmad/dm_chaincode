@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"reflect"
 	"strings"
-	copier "document_manager_chaincode/copier"
-	ecmdocument "document_manager_chaincode/documenttemplate/ecmdocument"
+	copier "../copier"
+	ecmdocument "../documenttemplate/ecmdocument"
 )
 
 func CreateDocument(docType string, docId string) ([]byte, error) {

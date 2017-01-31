@@ -1,7 +1,7 @@
 package main
 
 import (
-	dm "document_manager_chaincode/documentmanager"
+	dm "./documentmanager"
 	"encoding/hex"
 	"encoding/json"
 	"errors"
