@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"reflect"
 	"strings"
-	"document_manager_chaincode/copier"
+	copier "document_manager_chaincode/copier"
 	ecmdocument "document_manager_chaincode/documenttemplate/ecmdocument"
 )
 
