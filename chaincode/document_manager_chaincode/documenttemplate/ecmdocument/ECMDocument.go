@@ -16,7 +16,7 @@ type Document struct {
   DocID  string `json:"docID,omitempty"`
   DocHash string  `json:"docHash,omitempty"`
   DocUserID string `json:"docUserID,omitempty"`
-  DocUserIDList []string `json:"docUserIDList,omitempty"`
+  DocUserIDList string `json:"docUserIDList,omitempty"`
   AccessOnceOnly string `json:"accessOnceOnly,omitempty"`
   IsDeleted string `json:"isDeleted,omitempty"`
 }
